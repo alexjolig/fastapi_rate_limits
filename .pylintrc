@@ -1,0 +1,4 @@
+[MASTER]
+ignore=tests
+init-hook='import sys; sys.path.append("src/")'
+disable=too-few-public-methods,missing-module-docstring,no-name-in-module,no-self-argument,no-self-use

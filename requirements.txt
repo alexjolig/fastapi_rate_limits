@@ -1,0 +1,8 @@
+black==22.3.0
+coredis==3.4.3
+fastapi==0.75.2
+fastapi-azure-auth==3.3.0
+limits==2.6.1
+pylint==2.13.7
+pytest==7.1.2
+uvicorn==0.17.6

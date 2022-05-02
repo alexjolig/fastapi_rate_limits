@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  redis:
+    hostname: redis
+    image: redis:latest
+    ports:
+      - "6379:6379"
+    networks:
+     - fastapi_rate_limits
+
+  api:
+    build: .
+    hostname: api
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    tty: true
+    depends_on:
+      - redis
+    networks:
+    - fastapi_rate_limits
+
+networks:
+  fastapi_rate_limits:
