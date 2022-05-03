@@ -136,8 +136,3 @@ OPENAPI_CLIENT_ID=<YOUR_OPENAPI_CLIENT_ID>
 ```
 
 To get your `APP_CLIENT_ID`, `TENANT_ID` and `OPENAPI_CLIENT_ID` refer to the section about __How to test Azure AD authentication?__
-
-### More about the codes
-* The code has been formatted by [`black`](https://github.com/psf/black) 
-* And linted using [`pylint`](https://pylint.pycqa.org/en/latest/)
-* The code has a unit test code coverage of 93%  
